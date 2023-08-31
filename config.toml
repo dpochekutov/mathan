@@ -2,6 +2,10 @@ theme = "anatole-zola"
 # The URL the site will be built for
 base_url = "https://mathan.ru"
 
+taxonomies = [
+  {name = "tags"},
+]
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -26,3 +30,7 @@ date_format = "%Y-%m-%d"
 next_page = "Next Page"
 last_page = "Last Page"
 #theme = "anatole-zola"
+
+
+[extra.show]
+tags = true
