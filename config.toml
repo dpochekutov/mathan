@@ -1,3 +1,4 @@
+theme = "anatole-zola"
 # The URL the site will be built for
 base_url = "https://mathan.ru"
 
@@ -14,4 +15,14 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-theme = "anatole-zola"
+[languages.en.translations]
+language_name = "English"
+about = "About"
+home = "Home"
+tags = "Tags"
+archive = "Archive"
+links = "Links"
+date_format = "%Y-%m-%d"
+next_page = "Next Page"
+last_page = "Last Page"
+#theme = "anatole-zola"
