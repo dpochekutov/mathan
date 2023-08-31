@@ -29,7 +29,7 @@
 <div class="share">
   <div class="twitter">
     <a class="fab fa-vk"
-      href="https://vk.com/share.php??title={{ page.title }}&url={{ page.permalink | trim_end_matches(pat=" /") }}{% if
+      href="https://vk.com/share.php?title={{ page.title }}&url={{ page.permalink | trim_end_matches(pat=" /") }}{% if
       page.taxonomies.tags %}&hashtags={{ page.taxonomies.tags | join(sep="," ) }}{% endif %}"></a>
   </div>
 </div>
