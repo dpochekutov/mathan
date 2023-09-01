@@ -31,6 +31,9 @@ next_page = "Next Page"
 last_page = "Last Page"
 #theme = "anatole-zola"
 
-
 [extra.show]
 tags = true
+
+[extra.social]
+vk = "mathorger"
+tg = "findacat"
