@@ -5,7 +5,7 @@ date = 2023-09-01
 [taxonomies]
 tags = ["РФ22-01Б", "МА3"]
 [extra]
-summary = "Интегралы с параметрами"
+summary = "Собственные интегралы с параметрами"
 mathjax = "tex-mml"
 +++
 
