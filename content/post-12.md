@@ -3,7 +3,7 @@ title = "РФ23-01Б: Практика N3"
 template = "page.html"
 date = 2023-09-12
 [taxonomies]
-tags = ["РФ23-01Б", "МА1"]
+tags = ["rf23-01b", "MA1"]
 [extra]
 summary = "Числовые неравенства"
 mathjax = "tex-mml"

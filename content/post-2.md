@@ -3,7 +3,7 @@ title = "ИМ23-04М: Лекция N1"
 template = "page.html"
 date = 2023-09-04
 [taxonomies]
-tags = ["ИМ23-04М", "ОАГ"]
+tags = ["im23-04m", "OAG"]
 [extra]
 summary = "Введение в алгебраическую геометрию"
 mathjax = "tex-mml"

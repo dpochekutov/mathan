@@ -3,7 +3,7 @@ title = "БФ23-05Б: Практика N1-2"
 template = "page.html"
 date = 2023-09-04
 [taxonomies]
-tags = ["БФ23-05Б", "МА1"]
+tags = ["bf23-05b", "MA1"]
 [extra]
 summary = "Суммирование, метод математической индукции. Бином Ньютона."
 mathjax = "tex-mml"

@@ -3,7 +3,7 @@ title = "РФ22-01Б: Практика N2"
 template = "page.html"
 date = 2023-09-08
 [taxonomies]
-tags = ["РФ22-01Б", "МА3"]
+tags = ["rf22-01b", "MA3"]
 [extra]
 summary = "Равномерная сходимость несобственных интегралов с параметром"
 mathjax = "tex-mml"

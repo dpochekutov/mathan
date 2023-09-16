@@ -3,7 +3,7 @@ title = "РФ23-01Б: Практика N2"
 template = "page.html"
 date = 2023-09-08
 [taxonomies]
-tags = ["РФ23-01Б", "МА1"]
+tags = ["rf23-01b", "MA1"]
 [extra]
 summary = "Бином Ньютона"
 mathjax = "tex-mml"

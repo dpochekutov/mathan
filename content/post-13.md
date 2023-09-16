@@ -3,7 +3,7 @@ title = "БФ22-05Б, РФ22-01/2Б: Лекция N2"
 template = "page.html"
 date = 2023-09-12
 [taxonomies]
-tags = ["РФ22-01Б", "РФ22-02Б", "БФ22-05Б", "MA3"]
+tags = ["rf22-01b", "rf22-02b", "bf22-05b", "MA3"]
 [extra]
 summary = "Несобственные интегралы, зависящие от параметра"
 mathjax = "tex-mml"

@@ -3,7 +3,7 @@ title = "РФ23-01Б: Практика N4"
 template = "page.html"
 date = 2023-09-15
 [taxonomies]
-tags = ["РФ23-01Б", "МА1"]
+tags = ["rf23-01b", "MA1"]
 [extra]
 summary = "Предел последовательности"
 mathjax = "tex-mml"

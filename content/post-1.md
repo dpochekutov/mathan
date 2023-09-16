@@ -3,7 +3,7 @@ title = "РФ22-01Б: Практика N1"
 template = "page.html"
 date = 2023-09-01
 [taxonomies]
-tags = ["РФ22-01Б", "МА3"]
+tags = ["rf22-01b", "MA3"]
 [extra]
 summary = "Собственные интегралы с параметрами"
 mathjax = "tex-mml"
