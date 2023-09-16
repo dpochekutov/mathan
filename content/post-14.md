@@ -15,39 +15,7 @@ mathjax = "tex-mml"
 
 ### Разбор домашней работы
 
-**Д10в.** Докажем неравенство
-$$
-   \left| \sin \sum_{k=1}^n x_k \right| \leq \sum_{k=1}^n \sin{x_k},
-$$
-где $x_k\in [0;\pi]$, $k=1,\ldots, n,$ методом математической индукции.
-
-При $n=1$ неравенство тривиально выполняется. Докажем неравенство при $n=2$, для
-этого заметим, что по неравенству треугольника
-$$
-   |\sin{(x_1+x_2)}|=|\sin{x_1}\cos{x_2}+\sin{x_2}\cos{x_1}|\leq |\sin{x_1}\cos{x_2}|+|\sin{x_2}\cos{x_1}|.
-$$
-Так как $|\cos{x_i}|\leq 1$ при $x_i\in \mathbb{R}$ и $\sin{x_i}\geq 0$ при $x_i\in [0;\pi]$,
-$$
-   |\sin{(x_1+x_2)}|\leq |\sin{x_1}||\cos{x_2}|+|\sin{x_2}||\cos{x_1}|\leq \sin{x_1}+\sin{x_2}.
-$$
-
-Теперь предположим, что при некотором $p\in \mathbb{N}$
-$$
-   \left| \sin \sum_{k=1}^p x_k \right| \leq \sum_{k=1}^p \sin{x_k},
-$$
-где $x_k\in [0;\pi]$, $k=1,\ldots, p.$ Тогда выполняется цепочка неравенств
-$$
-   \left| \sin \sum_{k=1}^{p+1} x_k \right|=
-   \left| \sin \left(\sum_{k=1}^{p} x_k \right) \cos{x_{p+1}} + \sin{x_{p+1}} \cos \left(\sum_{k=1}^{p} x_k \right)\right|\leq
-$$
-$$
-   \leq \left| \sin \left(\sum_{k=1}^{p} x_k \right)\right| \left| \cos{x_{p+1}} \right| + \left|\sin{x_{p+1}}\right| \left| \cos \left(\sum_{k=1}^{p} x_k \right)\right|
-   \leq \left| \sin \left(\sum_{k=1}^{p} x_k \right) \right| + \left|\sin{x_{p+1}} \right| \leq
-$$
-$$
-   \left / \text{по гипотезе индукции} \right/ \leq \sum_{k=1}^{p} \sin  x_k   + \sin{x_{p+1}} = \sum_{k=1}^{p+1} \sin  x_k.
-$$ 
-Тем самым согласно принципу математической индукции неравенство справедливо для всех $n\in\mathbb{N}$.
+[Pdf-файл](/MA1_Homework_3.pdf)
 
 ### Точная верхняя и нижняя грани
 
