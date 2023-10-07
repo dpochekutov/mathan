@@ -1,5 +1,5 @@
 +++
-title = "ИМ23-04М: Семинар N1"
+title = "ИМ23-04М: Практика N1"
 template = "page.html"
 date = 2023-09-25
 [taxonomies]
