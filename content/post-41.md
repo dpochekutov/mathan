@@ -1,5 +1,5 @@
 +++
-title = "РФ22-01Б: Практика N6"
+title = "РФ22-01Б: Практика N7"
 template = "page.html"
 date = 2023-10-13
 [taxonomies]
@@ -13,4 +13,4 @@ mathjax = "tex-mml"
 
 ## Контрольная работа
 
-[Нулевой вариант](/MA3_Test1_V0.pdf)
+[Нулевой вариант](/MA3_Test1_v0.pdf)
