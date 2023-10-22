@@ -5,7 +5,7 @@ date = 2023-10-16
 [taxonomies]
 tags = ["bf23-05b", "MA1"]
 [extra]
-summary = "Число ЭЙлера. Критерий Коши."
+summary = "Число Эйлера. Критерий Коши."
 mathjax = "tex-mml"
 +++
 
