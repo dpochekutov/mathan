@@ -13,4 +13,5 @@ mathjax = "tex-mml"
 
 ## Двойные интегралы
 
+
 [Запись практики по теме двойные интегралы](https://www.youtube.com/watch?v=foHPCNva9ro)
