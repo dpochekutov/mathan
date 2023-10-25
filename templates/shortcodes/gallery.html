@@ -1,10 +1,11 @@
 <div>
-  {% for asset in page.assets -%}
-    {%- if asset is matching("[.](jpg|png)$") -%}
-      {% set image = resize_image(path=asset, width=180, height=320) %}
-      <a href="{{ get_url(path=asset) }}" target="_blank">
-        <img src="{{ image.url }}" />
-      </a>
-    {%- endif %}
-  {%- endfor %}
+    {% for asset in page.assets -%}
+      {%- if asset is matching("[.](jpg|png)$") -%}
+        {% set image = resize_image(path=asset, width=200, height=200) %}
+        
+              <a href="{{ get_url(path=asset) }}" target="_blank">
+                <img src="{{ image.url }}" />
+              </a>
+      {%- endif %}
+    {%- endfor %}
 </div>
