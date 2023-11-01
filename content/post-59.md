@@ -1,5 +1,5 @@
 +++
-title = "БФ22-05Б, РФ22-01/2Б: Лекция N7"
+title = "БФ22-05Б, РФ22-01/2Б: Лекция N8"
 template = "page.html"
 date = 2023-10-31
 [taxonomies]
