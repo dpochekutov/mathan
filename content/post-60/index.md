@@ -13,4 +13,4 @@ mathjax = "tex-mml"
 ## Контрольная работа N1
 
 ### Обобщенные результаты
-<img src="/hist.png">
+<img src="hist.png">
