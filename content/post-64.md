@@ -15,14 +15,26 @@ mathjax = "tex-mml"
 
 **Д674в** Доказать, что функция $x^3$ непрерывна на $\mathbb{R}$
 
-Пусть $x_0\in \mathbb{R}$. Рассмотрим
+Пусть $x_0\in \mathbb{R}$. Рассмотрим разность
 $$ 
     |x^3-x_0^3|=|((x-x_0)+x_0)^3-x_0^3|=|(x-x_0)^3+3x_0 (x-x_0)^2+3x_0^2(x-x_0)|\leq
 $$
 $$
-    \leq |x-x_0|^3+3|x_0||x-x_0|^2+3 |x_0|^2 |x-x_0| < \delta^3+3|x_0|\delta^2+3 |x_0|^2 \delta
+    \leq |x-x_0|^3+3|x_0||x-x_0|^2+3 |x_0|^2 |x-x_0| < \delta^3+3|x_0|\delta^2+3 |x_0|^2 \delta = \varepsilon
 $$
-
+Найдем значение $\delta$ из уравнения
+$$
+    \delta^3+3|x_0|\delta^2+3 |x_0|^2 \delta = \varepsilon,
+$$
+$$
+    \delta^3+3|x_0|\delta^2+3 |x_0|^2 \delta +|x_0|^3= \varepsilon+|x_0|^3,
+$$
+$$
+    (\delta+|x_0|)^3=\varepsilon+|x_0|^3,
+$$
+$$
+    \delta=\sqrt[3]{\varepsilon+|x_0|^3}-|x_0|.
+$$
 ### Домашняя работа
 
 1. Д664, Д667.
