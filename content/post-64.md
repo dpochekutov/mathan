@@ -33,8 +33,12 @@ $$
     (\delta+|x_0|)^3=\varepsilon+|x_0|^3,
 $$
 $$
-    \delta=\sqrt[3]{\varepsilon+|x_0|^3}-|x_0|.
+    \delta=\sqrt[3]{\varepsilon+|x_0|^3}-|x_0|>0.
 $$
+Таким образом, величина $|x^3-x_0^3|<\varepsilon$, если $x\in \mathbb{R}$ такой, что 
+$|x-x_0|<\delta=\sqrt[3]{\varepsilon+|x_0|^3}-|x_0|.$ Поэтому функция $x^3$ непрерывна в точке $x_0\in\mathbb{R}$.
+Поскольку точка произвольная, то $x^3\in C(\mathbb{R}).$
+
 ### Домашняя работа
 
 1. Д664, Д667.
