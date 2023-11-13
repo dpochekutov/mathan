@@ -22,7 +22,7 @@ $$
     |\textup{arctg}(x)-\textup{arctg}{(x_0)}|=\left|\textup{arctg}\frac{x-x_0}{1+xx_0}\right|.
 $$
 
-Заметим, что при $|\alpha|<\frac{\pi}{2}$ справедливо неравенство> $|\alpha|\leq|\textup{tg}(\alpha)|$, из
+Заметим, что при $|\alpha|<\frac{\pi}{2}$ справедливо неравенство $|\alpha|\leq|\textup{tg}(\alpha)|$, из
 которого при замене $\alpha=\textup{arctg}(a)$ вытекает
 $$
     |\textup{arctg}(a)|\leq |a|.
