@@ -22,8 +22,17 @@ $$
     |\textup{arctg}(x)-\textup{arctg}{(x_0)}|=|\textup{arctg}\frac{x-x_0}{1+xx_0}|.
 $$
 
-
-
+Заметим, что при $|\alpha|<\frac{\pi}{2}$ справедливо неравенство> $|\alpha|\leq|\textup{tg}(\alpha)|$, из
+которого при замене $\alpha=\textup{arctg}(a)$ вытекает
+$$
+    |\textup{arctg}(a)|\leq |a|.
+$$
+Поэтому 
+$$
+    |\textup{arctg}(x)-\textup{arctg}{(x_0)}|\leq |\frac{x-x_0}{1+xx_0}|.
+$$
+Выражение в правой части будет меньше $\varepsilon >0$, если $x\in \mathbb{R}$ такой,
+что $|x-x_0|<\delta:=\min{x_0, \varepsilon}$.
 ## Равномерная непрерывность
 
 ### Определение равномерной непрерывности
