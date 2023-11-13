@@ -19,7 +19,7 @@ mathjax = "tex-mml"
 
 Пусть $x_0\in \mathbb{R}$. Рассмотрим величину
 $$
-    |\textup{arctg}(x)-\textup{arctg}{(x_0)}|=|\textup{arctg}\frac{x-x_0}{1+xx_0}|.
+    |\textup{arctg}(x)-\textup{arctg}{(x_0)}|=\left|\textup{arctg}\frac{x-x_0}{1+xx_0}\right|.
 $$
 
 Заметим, что при $|\alpha|<\frac{\pi}{2}$ справедливо неравенство> $|\alpha|\leq|\textup{tg}(\alpha)|$, из
@@ -29,10 +29,12 @@ $$
 $$
 Поэтому 
 $$
-    |\textup{arctg}(x)-\textup{arctg}{(x_0)}|\leq |\frac{x-x_0}{1+xx_0}|.
+    |\textup{arctg}(x)-\textup{arctg}{(x_0)}|\leq \left|\frac{x-x_0}{1+xx_0}\right|.
 $$
 Выражение в правой части будет меньше $\varepsilon >0$, если $x\in \mathbb{R}$ такой,
-что $|x-x_0|<\delta:=\min{x_0, \varepsilon}$.
+что $|x-x_0|<\delta:=\min(x_0, \varepsilon)$. Таким образом, функция непрерывна в произвольной точке
+$x_0\in\mathbb{R}$, то есть на всём множестве $\mathbb{R}$.
+
 ## Равномерная непрерывность
 
 ### Определение равномерной непрерывности
@@ -72,3 +74,7 @@ $$
 1. Д678, Д679, Д680, Д682, Д690, Д702.
 2. Д786, Д788, Д789, Д790, Д794.
 
+
+## Предварительный список вопросов, выносимых на экзамен
+
+[Осенний семестр](\questions_I.pdf)
