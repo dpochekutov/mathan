@@ -15,11 +15,11 @@ mathjax = "tex-mml"
 
 ### Разбор домашней работы
 
-**Д674з** Докажем, что функция $f(x)=\arctg{x}$ является непрерывной на $\mathbb{R}$.
+**Д674з** Докажем, что функция $f(x)=\textup{arctg}{x}$ является непрерывной на $\mathbb{R}$.
 
 Пусть $x_0\in \mathbb{R}$. Рассмотрим величину
 $$
-    |\mathop{arctg}x-\mathop{arctg}{x_0}|=|\mathop{arctg}\frac{x-x_0}{1+xx_0}|.
+    |\textup{arctg}x-\textup{arctg}{x_0}|=|\textup{arctg}\frac{x-x_0}{1+xx_0}|.
 $$
 
 
