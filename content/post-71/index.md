@@ -17,23 +17,33 @@ mathjax = "tex-mml"
 
 **Д674з** Докажем, что функция $f(x)=\textup{arctg}{(x)}$ является непрерывной на $\mathbb{R}$.
 
-Пусть $x_0\in \mathbb{R}$. Рассмотрим величину
+Пусть точка $x_0> 0$. Тогда при $x x_0>-1$ справедливо тождество
+$$
+    \textup{arctg}(x)-\textup{arctg}{(x_0)}=\textup{arctg}\frac{x-x_0}{1+xx_0}.
+$$
+
+Для любого $\varepsilon>0$ выберем $\delta:=\min(x_0, \varepsilon)$. Если $|x-x_0|<\delta$, то
 $$
     |\textup{arctg}(x)-\textup{arctg}{(x_0)}|=\left|\textup{arctg}\frac{x-x_0}{1+xx_0}\right|.
 $$
+
 
 Заметим, что при $|\alpha|<\frac{\pi}{2}$ справедливо неравенство $|\alpha|\leq|\textup{tg}(\alpha)|$, из
 которого при замене $\alpha=\textup{arctg}(a)$ вытекает
 $$
     |\textup{arctg}(a)|\leq |a|.
 $$
-Поэтому 
+Поэтому при $|x-x_0|<\delta$
 $$
-    |\textup{arctg}(x)-\textup{arctg}{(x_0)}|\leq \left|\frac{x-x_0}{1+xx_0}\right|.
+    |\textup{arctg}(x)-\textup{arctg}{(x_0)}|\leq \left|\frac{x-x_0}{1+xx_0}\right|<|x-x_0|<\delta\leq \varepsilon.
 $$
-Выражение в правой части будет меньше $\varepsilon >0$, если $x\in \mathbb{R}$ такой,
-что $|x-x_0|<\delta:=\min(x_0, \varepsilon)$. Таким образом, функция непрерывна в произвольной точке
-$x_0\in\mathbb{R}$, то есть на всём множестве $\mathbb{R}$.
+Таким образом, функция непрерывна в точке $x_0>0$. Поскольку функция $\textup{arctg}{(x)}$ нечётна, то она непрерывна и в
+любой точке $x_0<0$.
+
+Отметим, что функция непрерывна и в точке $x_0=0$, так как 
+$$
+    |\textup{arctg}(x)|\leq |x|<\delta:=\varepsilon.
+$$
 
 ## Равномерная непрерывность
 
