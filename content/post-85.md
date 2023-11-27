@@ -28,7 +28,7 @@ $$
     =\lim_{h\to\infty} \frac{h + h\arcsin\sqrt{\frac{1+h}{2+h}}}{h}=\lim_{h\to\infty} \left(1 + \arcsin\sqrt{\frac{1+h}{2+h}}\right)=
 $$
 $$
-    =1+\arcsin\sqrt{\frac{1+h}{2+h}},
+    =1+\arcsin\sqrt{\frac{1}{2}}=1+\frac{\pi}{4}},
 $$
 поскольку $\arcsin{x}$ является непрерывной функцией на отрезке $[-1;1]$.
 
