@@ -25,8 +25,12 @@ $$
     f'(1)=\lim_{h\to\infty} \frac{f(1+h)-f(1)}{h}=\lim_{h\to\infty} \frac{1+h + h\arcsin\sqrt{\frac{1+h}{2+h}}-1}{h}=
 $$
 $$
-    =\lim_{h\to\infty} \frac{h + h\arcsin\sqrt{\frac{1+h}{2+h}}}{h}=\lim_{h\to\infty} \left(1 + \arcsin\sqrt{\frac{1+h}{2+h}}}\right)
+    =\lim_{h\to\infty} \frac{h + h\arcsin\sqrt{\frac{1+h}{2+h}}}{h}=\lim_{h\to\infty} \left(1 + \arcsin\sqrt{\frac{1+h}{2+h}}\right)=
 $$
+$$
+    =1+\arcsin\sqrt{\frac{1+h}{2+h}},
+$$
+поскольку $\arcsin{x}$ является непрерывной функцией при $x\in[-1;1]$.
 
 ## Домашняя работа
 
