@@ -1,7 +1,7 @@
 +++
 title = "ИМ23-04М: Лекция N8 (продолжение)"
 template = "page.html"
-date = 2023-12-04
+date = 2023-12-11
 [taxonomies]
 tags = ["im23-04m", "OAG"]
 [extra]
