@@ -918,8 +918,15 @@ html.theme--light {
         a {
           color: #464646;
         }
+        h3{ 
+          font-family: 'Slackey', sans-serif;
+        }
+        p{
+          margin-top: 0px;
+          font-family: 'Slackey', sans-serif;
+          font-size: 16px;
+        }  
       }
-
     }
 
     .social-links {
