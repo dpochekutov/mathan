@@ -2,6 +2,10 @@ theme = "anatole-zola"
 # The URL the site will be built for
 base_url = "https://mathan.ru"
 
+# The site title and description; used in feeds by default.
+title = "mathan.ru"
+description = "Pathemata mathemata"
+
 taxonomies = [
   {name = "tags"},
 ]
