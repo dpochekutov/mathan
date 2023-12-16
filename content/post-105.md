@@ -14,7 +14,7 @@ mathjax = "tex-mml"
 
 ### Guillaume Fran&ccedil;ois Antoine de&nbsp;L&rsquo;H&ocirc;pital
 
-<img src="/lopital.jpg" width="50%">
+<img src="/lopital.jpg" width="75%">
 
 ### Домашняя работа
 
