@@ -27,7 +27,7 @@ mathjax = "tex-mml"
 
 1. Д1471, Д1472. 
 2. Д1478.
-3. Д1501 ([разбор задания](https://youtu.be/9iqjQJnIVkk))
-4. Д1519 ([разбор задания](https://youtu.be/_NmXtHlOURI))
+3. Д1501 ([разбор задания](https://youtu.be/9iqjQJnIVkk)).
+4. Д1519 ([разбор задания](https://youtu.be/_NmXtHlOURI)).
 
 
