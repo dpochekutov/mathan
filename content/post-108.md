@@ -1,7 +1,7 @@
 +++
 title = "БФ23-05Б, РФ23-01/2Б: Лекция N13"
 template = "page.html"
-date = 2023-12-12
+date = 2023-12-19
 [taxonomies]
 tags = ["rf23-01b", "rf23-02b", "bf23-05b", "MA1"]
 [extra]
