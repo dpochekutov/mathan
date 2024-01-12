@@ -13,8 +13,8 @@ mathjax = "tex-mml"
 
 ## Интегрирование рациональных функций
 
-[Видео](https://www.youtube.com/watch?v=610Kua4S9A0&t=82s). 
+[Ссылка на видео](https://www.youtube.com/watch?v=610Kua4S9A0&t=82s). 
 
 ## Абелевы интегралы
 
-[Видео](https://www.youtube.com/watch?v=610Kua4S9A0&t=3216s)
+[Ссылка на видео](https://www.youtube.com/watch?v=610Kua4S9A0&t=3216s).
