@@ -18,3 +18,6 @@ mathjax = "tex-mml"
 ## Абелевы интегралы
 
 [Ссылка на видео](https://www.youtube.com/watch?v=610Kua4S9A0&t=3216s).
+
+
+[Конспект пятнадцатой лекции](/MA1_Lecture15.pdf)
