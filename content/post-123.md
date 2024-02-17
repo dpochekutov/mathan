@@ -30,6 +30,9 @@ mathjax = "tex-mml"
 
 1. Д2186, Д2188, Д2189, Д2190.
 
-### КСР 
+### КСР
 
+Распределение задач по вариантам
 <a href="/assign_II_1.jpg"><img src="/assign_II_1.jpg" width="100%"></a>
+
+[Задачи для КСР](/assign_II_1.pdf)

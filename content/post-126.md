@@ -22,4 +22,7 @@ mathjax = "tex-mml"
 
 ### КСР
 
+Распределение задач по вариантам
 <a href="/assign_II_1.jpg"><img src="/assign_II_1.jpg" width="100%"></a>
+
+[Задачи для КСР](/assign_II_1.pdf)
