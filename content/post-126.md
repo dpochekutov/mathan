@@ -19,3 +19,7 @@ mathjax = "tex-mml"
 ### Домашняя работа
 
 1. Д2260-65.
+
+### КСР
+
+<img src="/assign_II_1.jpg" width="100%">
