@@ -29,3 +29,7 @@ mathjax = "tex-mml"
 ### Домашняя работа
 
 1. Д2186, Д2188, Д2189, Д2190.
+
+### КСР 
+
+<a href="/assign_II_1.jpg"><img src="/assign_II_1.jpg" width="100%"></a>
