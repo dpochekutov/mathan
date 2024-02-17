@@ -22,4 +22,4 @@ mathjax = "tex-mml"
 
 ### КСР
 
-<img src="/assign_II_1.jpg" width="100%">
+<a href="/assign_II_1.jpg"><img src="/assign_II_1.jpg" width="100%"></a>
