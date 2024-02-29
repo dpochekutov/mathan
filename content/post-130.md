@@ -1,7 +1,7 @@
 +++
 title = "БФ23-05Б: Практика N7-8"
 template = "page.html"
-date = 2024-02-21
+date = 2024-02-28
 [taxonomies]
 tags = ["bf23-05b", "MA2"]
 [extra]
