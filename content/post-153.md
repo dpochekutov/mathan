@@ -45,7 +45,7 @@ $$
 Записав дифференциал функции $u$:
 $$
     du(r,\varphi) =
-    \left( \begin{array}{cc} u'_x & u'_y\end{array}\right)
+    \left( \begin{array}{cc} \frac{\partial u}{\partial x} & \frac{\partial u}{\partial y}\end{array}\right)
     \left(
     \begin{array}{cr}
         \cos{\varphi} & -r \sin{\varphi} \\\\
@@ -53,31 +53,31 @@ $$
     \end{array}    
     \right)
     \left( \begin{array}{c} dr \\\\ d\varphi\end{array}\right) =
-    \left( \begin{array}{cc} u'_r & u'_{\varphi}\end{array}\right)
+    \left( \begin{array}{cc} \frac{\partial u}{\partial r} & \frac{\partial u}{\partial \varphi} \end{array}\right)
     \left( \begin{array}{c} dr \\\\ d\varphi\end{array}\right),
 $$
 мы приходим к соотношению
 $$
-    \left( \begin{array}{cc} u'_x & u'_y\end{array}\right)
+    \left( \begin{array}{cc} \frac{\partial u}{\partial x} & \frac{\partial u}{\partial y}\end{array}\right)
     \left(
     \begin{array}{cr}
         \cos{\varphi} & -r \sin{\varphi} \\\\
         \sin{\varphi} &  r \cos{\varphi} \\\\
     \end{array}    
     \right) =
-    \left( \begin{array}{cc} u'_r & u'_{\varphi} \end{array}\right).
+    \left( \begin{array}{cc} \frac{\partial u}{\partial r} & \frac{\partial u}{\partial \varphi} \end{array}\right).
 $$
 Из него находим, что 
 $$
-    \left( \begin{array}{cc} u'_x & u'_y\end{array}\right) = 
-    \left( \begin{array}{cc} u'_r & u'_{\varphi}\end{array}\right)
+    \left( \begin{array}{cc} \frac{\partial u}{\partial x}& \frac{\partial u}{\partial y}\end{array}\right) = 
+    \left( \begin{array}{cc} \frac{\partial u}{\partial r} & \frac{\partial u}{\partial \varphi}\end{array}\right)
     \left(
     \begin{array}{cr}
         \cos{\varphi} & -r \sin{\varphi} \\\\
         \sin{\varphi} &  r \cos{\varphi} \\\\
     \end{array}    
     \right)^{-1} =
-    \left( \begin{array}{cc} u'_r & u'_{\varphi}\end{array}\right)
+    \left( \begin{array}{cc} \frac{\partial u}{\partial r} & \frac{\partial u}{\partial \varphi}\end{array}\right)
     \left(
     \begin{array}{cr}
         \cos{\varphi} &    \sin{\varphi} \\\\
@@ -85,13 +85,14 @@ $$
     \end{array}    
     \right).
 $$
-Тогда
-### Аудиторные задачи
-
-1. Д3256-62 (чётные).
-2. Д3284-3300 (чётные).
+Тогда искомое выражение принимает вид
+$$
+    w = r \cos{\varphi}\left(\sin{\varphi} \frac{\partial u}{\partial r} + \frac{\cos{\varphi}}{r} \frac{\partial u}{\partial \varphi} \right)
+      - r \sin{\varphi}  \left(\cos{\varphi} \frac{\partial u}{\partial r} - \frac{\sin{\varphi}}{r} \frac{\partial u}{\partial \varphi} \right) = \frac{\partial u}{\partial \varphi}.
+$$
 
 ### Домашняя работа
 
-1. Д3289-3301 (нечётные).
-2. Д3305-3309.
+1. Д3458, Д3459.
+2. Д3484, Д3485.
+3. Д3501, Д3502.
